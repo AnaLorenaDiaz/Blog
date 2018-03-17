@@ -1,3 +1,36 @@
 
+*{
+  outline: 1px solid red;
+}
 
+/*HEADER*/
+header {
+  border: 3px dashed black;
+}
+.header-img {
+  width: 35%;
+  margin-bottom: 2%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+header > nav > form {
+  margin-bottom: 2%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.header-icon, .header-icon-margin {
+  font-size: 2em;
+  color: aliceblue;
+}
+.header-icon-margin {
+  margin-right: 20px;
+}
+/*NAVBAR*/
+.navbar-space {
+  margin: 2%;
+}
+/*CONTAINER*/
+div {
+  margin-top: 2%;
+}
 
