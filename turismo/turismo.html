@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Favorite places</title>
+  <!--ICONOS-->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
     crossorigin="anonymous">
-  <!--ICONOS-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -17,6 +17,8 @@
 </head>
 
 <body>
+
+
   <!--CABECERA-->
   <header>
     <div class="row">
@@ -55,7 +57,7 @@
       <!--SLOGAN-->
       <div class="col s12 m5">
         <h4 class="slogan">
-          <i>my destiny</i>
+          <i>Un viaje se mide mejor en amigos que en millas</i>
         </h4>
       </div>
     </div>
@@ -73,7 +75,7 @@
         <i class="fa fa-facebook"></i>
       </a>
 
-      <a class="waves-effect waves-light btn-floating social twitter blue lighten-2 vertical-menu">
+      <a class="waves-effect waves-light btn-floating social twitter  blue lighten-2 vertical-menu">
         <i class="fa fa-twitter"></i>
       </a>
 
@@ -107,24 +109,128 @@
 
   <!--CONTENEDOR 2-->
   <div class="row">
+
+    <!--ENTRADAS DE BLOG-->
     <div class="col s12 m8">
+      <!--1ERA PUBLICACION-->
+      <div class="card">
+        <!--IMAGEN CON FECHA Y UBICACION-->
+        <div class="card-image">
+          <img src="https://s-ec.bstatic.com/images/hotel/max1024x768/195/19515115.jpg">
+          <span class="card-title">Balneario de Máncora
+            <div class="chip">
+              23 de Marzo - 2018
+              <i class="material-icons">date_range</i>
+            </div>
+            <div class="chip">
+              Piura, Perú
+              <i class="material-icons">location_on</i>
+            </div>
+          </span>
+        </div>
+        <!--DESCRIPCION DE LA IMAGEN-->
+        <div class="card-content">
+          <p>El pueblo es bastante pequeño por lo que un recorrido a pie sería lo ideal. Puedes dar paseos por su extenso malecón
+            donde tanto durante el día como por la noche hay bares y restaurantes donde degustar la gastronomía local.</p>
+          <br>
+          <p>Al tratarse de un balneario turístico, te recomiendo un chapuzón en el mar o probar quizá unas clases de surf u
+            otro deporte acuático. Por la tardecita-noche puedes recorrer la peatonal que une la panamericana y cae directamente
+            al Malecón ya que cobra vida con los artesanos y los restaurantes y bares animan la noche con música. También
+            un paseo por la calle principal (que es la Panamericana), donde está la iglesia y tiendas, y cenar en alguno
+            de los restaurantes que allí se concentran.</p>
+        </div>
+      </div>
+      <!--COMENTARIOS-->
+      <div class="row amber darken-3">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Nombre</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">email</i>
+              <input id="icon_email" type="tel" class="validate">
+              <label for="icon_email">Correo Electrónico</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Comentario</label>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+
+
+          </div>
+        </form>
+      </div>
+
+      
+      <!--2DA PUBLICACION-->
+      <div class="card">
+        <!--IMAGEN CON FECHA Y UBICACION-->
+        <div class="card-image">
+          <img src="https://s3-us-west-2.amazonaws.com/denomades/blog/wp-content/uploads/2017/02/16150621/Volcan-Misti-Victor-Bautista.png">
+          <span class="card-title">Arequipa
+            <div class="chip">
+              16 de Marzo - 2018
+              <i class="material-icons">date_range</i>
+            </div>
+            <div class="chip">
+              Arequipa, Perú
+              <i class="material-icons">location_on</i>
+            </div>
+          </span>
+        </div>
+        <!--DESCRIPCION DE LA IMAGEN-->
+        <div class="card-content">
+          <p>Para quienes no conocen esta ciudad, Arequipa está rodeada por un cordón montañoso, donde destacan dos cumbres: el volcán Misti y el volcán Chachani. Desde la ciudad puedes tomar excursiones para subir ambos cráteres, donde podrás tener una vista inigualable de toda la campiña arequipeña.</p>
+          <br>
+          <p>Si eres amante de los deportes acuáticos, esta urbe te da la posibilidad de hacer rafting en el Río Chili. Con rápidos clase IV, podrás experimentar la adrenalina del rafting y ver la hermosura del Valle de la Chilina.</p>
+        </div>
+      </div>
+      <!--COMENTARIOS-->
+      <div class="row amber darken-3">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Nombre</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">email</i>
+              <input id="icon_email" type="tel" class="validate">
+              <label for="icon_email">Correo Electrónico</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Comentario</label>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
 
     </div>
+
+    <!--INFO DEL AUTOR-->
     <div class="col s12 m4">
       <div class="card-panel teal center">
         <img class="circle" src="https://baqueton.com/wp-content/uploads/2017/01/El-arte-de-los-retratos-en-pintura-digital-8.jpg"
           width="50%">
-        <h3>autor</h3>
+        <h3>ADia</h3>
         <hr>
-        <span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-          markup to use effectively. I am similar to what is called a panel in other frameworks.
+        <span class="white-text">Por su puesto este no es mi nombre, pero prefiero que me conozcan así. En la actualidad ayudo a diversas empresas turísticas a activar su presencia online potenciando su márketing digital y sus redes sociales con herramientas de alto alcance además de hacer los respectivos viajes para conocer los lugares sobre los que voy a redactar.
         </span>
       </div>
 
     </div>
   </div>
-
-
 
 
   <!--jquery-->

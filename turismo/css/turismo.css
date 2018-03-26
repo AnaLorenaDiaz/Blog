@@ -1,7 +1,8 @@
+/*
 * {
   outline: 1px solid red;
 }
-
+*/
 body {
   background-image: url(https://i.pinimg.com/originals/88/9f/9a/889f9af68aa40c8de157548176f57b29.jpg);
   background-repeat: no-repeat;
@@ -9,6 +10,7 @@ body {
   background-position-y: 20vh;
   background-color: rgb(0, 66, 135);
 }
+
 /*HEADER*/
 .logo-turismo {
   padding-top: 8%;
